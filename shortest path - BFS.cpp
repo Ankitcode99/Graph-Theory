@@ -49,7 +49,7 @@ void bfs(ll node)
 
 void path(ll node,ll des,ll n)
 {
-	bfs(1);
+	bfs(node);
 	
 	if(!vis[des])
 	{
