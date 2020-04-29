@@ -62,10 +62,10 @@ int main()
 		cin>>n;
 		rep(i,0,n-1)
 		{
-			ll a,b,cost;
-			cin>>a>>b>>cost;
-			ar[a].pb({b,cost});
-			ar[b].pb({a,cost});
+			ll a,b,edge_length;
+			cin>>a>>b>>edge_length;
+			ar[a].pb({b,edge_length});
+			ar[b].pb({a,edge_length});
 		}
 
 		maxdis=-1;
