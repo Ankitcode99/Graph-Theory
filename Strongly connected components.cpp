@@ -42,17 +42,6 @@ void dfs2(ll node)
 	
 }
 
-void dfs(ll node=7)
-{
-	vis[node]=true;
-	cout<<node<<" ";
-	for(ll child:gT[node])
-	{
-		if(!vis[child])
-			dfs(child);
-	}
-}
-
 int main()
 {
 	fast;
